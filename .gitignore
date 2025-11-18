@@ -1,20 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/go,visualstudiocode,intellij+all,maven,gradle,git,macos,windows,linux
-# Edit at https://www.toptal.com/developers/gitignore?templates=go,visualstudiocode,intellij+all,maven,gradle,git,macos,windows,linux
-
-### Git ###
-# Created by git for backups. To disable backups in Git:
-# $ git config --global mergetool.keepBackup false
-*.orig
-
-# Created by git when using merge tools for conflicts
-*.BACKUP.*
-*.BASE.*
-*.LOCAL.*
-*.REMOTE.*
-*_BACKUP_*.txt
-*_BASE_*.txt
-*_LOCAL_*.txt
-*_REMOTE_*.txt
+# Created by https://www.toptal.com/developers/gitignore/api/go,visualstudiocode,intellij+all,macos,windows,linux
+# Edit at https://www.toptal.com/developers/gitignore?templates=go,visualstudiocode,intellij+all,macos,windows,linux
 
 ### Go ###
 # If you prefer the allow list template instead of the deny list, see community template:
@@ -175,25 +160,6 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
-### Maven ###
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-# https://github.com/takari/maven-wrapper#usage-without-binary-jar
-.mvn/wrapper/maven-wrapper.jar
-
-# Eclipse m2e generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
-
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -239,29 +205,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-### Gradle ###
-.gradle
-**/build/
-!src/**/build/
-
-# Ignore Gradle GUI config
-gradle-app.setting
-
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
-
-# Avoid ignore Gradle wrappper properties
-!gradle-wrapper.properties
-
-# Cache of project
-.gradletasknamecache
-
-# Eclipse Gradle plugin generated files
-# Eclipse Core
-# JDT-specific (Eclipse Java Development Tools)
-
-### Gradle Patch ###
-# Java heap dump
-*.hprof
-
-# End of https://www.toptal.com/developers/gitignore/api/go,visualstudiocode,intellij+all,maven,gradle,git,macos,windows,linux
+# End of https://www.toptal.com/developers/gitignore/api/go,visualstudiocode,intellij+all,macos,windows,linux
